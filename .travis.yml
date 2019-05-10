@@ -21,8 +21,8 @@ deploy:
   distributions: "sdist bdist_wheel"
   skip_existing: true
   user: gijskant
-#  password:
-#    secure:
+  password:
+    secure: P+JhHVBdv2fllyfZcuSghE0XSe1Vz51iNHd4odrwPg6cTdF6XpGr63LWf8RtRYIyu+kZjji70zMJ8pJyjVFAhRHhNtobubp6Iv3XF9TkkomxssUAIJZnkJSAK/oLVPLGRllHkZyj5aZoGXqdbtgcHVfRD0HkmdsMnXHa5mx0x1nkQ4a0MD5I2aZpt5F6UI5b3Up9sMQj/PCfg5bZWFWbqJzGd7qho/nDEqFq0f0HVW5c6+o+A24BVLBh3qLp7I0BlVE/3efVMBbq0ZFRWyBvs1uKTmO3x3gboJhKX9MZgXA9uMf9qTnE3VTVVW/gedQwwg5z/pVm4b2OJuiz8TBm3t2LJLvEHApGiPHKV4DJvuU7rAy0Ve6ejjBLSsalUa/q6WOkV8iaG6FUjXP4IezjdotSpMy2qwDEI1BPSaxz9AxhXOhuyCezwbT/lAupzKC3QvkxZ/Csl56k/XUlK4wCBUyLTY9LdG63kHSJ7PLkTQfGU9uxbQLRgibjpAxAx6MJLlzxgw+iR8qo3oVhNLZRdMb2j/PVOX0taDOTxVP21r2gcOcDipEeEiSJD9N5fNeN7z+abLaKjv1PBV0FdfG7aZMo3eq8m+cQkjp/JUtc3IMpLwMQWHgG4IFx53PIKP3Mokvx5tgEmHv2yaAYQK/Dd+z4qlGvKWFN7wZ8bghd5w0=
   on:
     tags: true
     branch: master
