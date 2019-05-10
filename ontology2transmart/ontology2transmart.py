@@ -53,5 +53,9 @@ def ontology2transmart(system, chapters, groups, codes, output_dir):
         sys.exit(1)
 
 
-if __name__ == '__main__':
+def main():
     ontology2transmart()
+
+
+if __name__ == '__main__':
+    main()
