@@ -12,7 +12,7 @@ if sys.version_info < (3, 6):
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-# To update the package version number, edit fhir2transmart/__version__.py
+# To update the package version number, edit ontology2transmart/__version__.py
 version = {}
 with open(os.path.join(here, 'ontology2transmart', '__version__.py')) as f:
     exec(f.read(), version)
@@ -30,7 +30,7 @@ setup(
     long_description=readme + '\n\n',
     author="Gijs Kant",
     author_email='gijs@thehyve.nl',
-    url='https://github.com/thehyve/python_transmart_loader',
+    url='https://github.com/thehyve/python_ontology2transmart',
     packages=[
         'ontology2transmart',
     ],
